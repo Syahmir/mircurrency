@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversion Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Conversion Calculator</h1>
+    </header>
+
+    <main>
+        <section id="calculator-form">
+            <label for="inputValue">Enter Amount:</label>
+            <input type="text" id="inputValue">
+
+            <label for="fromCurrency">From Currency:</label>
+            <select id="fromCurrency">
+                <option value="USD">USD (US Dollar)</option>
+                <option value="EUR">EUR (Euro)</option>
+                <option value="RM">RM (Malaysian Ringgit)</option>
+                <option value="SGD">SGD (Singapore Dollar)</option>
+            </select>
+
+            <label for="toCurrency">To Currency:</label>
+            <select id="toCurrency">
+                <option value="USD">USD (US Dollar)</option>
+                <option value="EUR">EUR (Euro)</option>
+                <option value="RM">RM (Malaysian Ringgit)</option>
+                <option value="SGD">SGD (Singapore Dollar)</option>
+            </select>
+
+            <button id="convertButton">Convert</button>
+
+            <p id="result">Result will be displayed here.</p>
+        </section>
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="conversion.html">About</a></li>
+            <li><a href="calculator.html">Currency</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>&copy; 2024 Syahmir. All rights reserved.</p>
+    </footer>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
